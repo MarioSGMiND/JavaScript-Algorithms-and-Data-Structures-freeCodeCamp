@@ -1,0 +1,50 @@
+body {
+    background-color: #0a0a23;
+}
+
+/* Style the #text element */
+#text {
+    background-color:#0a0a23;
+    color: #ffffff;
+    padding: 10px;
+  }
+
+  /* Style the #game element */
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  margin: 30px auto 0 auto;
+}
+
+  /* Target both #controls and #stats elements with a selector list */
+#controls, #stats {
+  border: 1px solid #0a0a23;
+  color: #0a0a23;
+  padding: 5px;
+}
+
+/* Style the #monsterStats element */
+#monsterStats {
+  display: none;
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #c70d0d;
+}
+
+/* Style elements with the class .stat */
+.stat {
+  padding-right: 10px;
+}
+
+/* Style buttons (assuming they are generic elements) */
+button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+}
